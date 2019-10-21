@@ -1,0 +1,14 @@
+form input {
+    margin-bottom: 1rem;
+}
+
+form button {
+    margin-bottom: 1rem;
+}
+
+form hr {
+    margin: 1.5rem 0;
+    border: solid thin;
+    border-bottom: none;
+    opacity: 0.3;
+}

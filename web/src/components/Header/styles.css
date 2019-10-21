@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 30px;
+    color: #fb5048;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 1rem;
+}
+
+header a {
+    color: inherit;
+    transition: all 0.2s;
+}
+
+header a:hover {
+    opacity: 0.8;
+}
+
+header aside a {
+    display: flex;
+    align-items: center;
+}
+
+header aside a .avatar {
+    margin-left: 0.5rem;
+    width: 34px;
+    height: 34px;
+}

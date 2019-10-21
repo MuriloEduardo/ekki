@@ -1,0 +1,4 @@
+.contact-infos {
+    display: flex;
+    justify-content: space-between;
+}

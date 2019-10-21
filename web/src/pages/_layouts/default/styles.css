@@ -1,0 +1,7 @@
+.default-wrapper {
+    height: 100%;
+}
+
+.default-wrapper .container {
+    padding: 30px;
+}

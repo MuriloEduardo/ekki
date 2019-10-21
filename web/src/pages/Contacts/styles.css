@@ -1,0 +1,73 @@
+.contacts .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-contact {
+    display: flex;
+    align-items: center;
+}
+
+.new-contact span {
+    margin-left: 0.5rem;
+}
+
+.contacts .card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts .infos {
+    display: flex;
+    align-items: center;
+}
+
+.contacts .infos .avatar {
+    margin-right: 1rem;
+}
+
+.contacts .infos h4 {
+    margin: 0;
+}
+
+.contacts .infos h6 {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.contacts .infos span {
+    margin-top: 0.5rem;
+}
+
+.contacts .actions {
+    display: flex;
+}
+
+.contacts .actions a {
+    display: block;
+}
+
+.form-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form-search svg {
+    position: absolute;
+    margin: 0 1rem;
+}
+
+.form-search input {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    padding-left: 3rem;
+}
+
+.contacts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
