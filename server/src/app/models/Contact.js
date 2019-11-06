@@ -15,7 +15,10 @@ class Contact extends Model {
   static associate(models) {
     this.belongsTo(models.User, { foreignKey: 'user_id', as: 'user' });
 
-    this.belongsTo(models.User, { foreignKey: 'contact_id', as: 'contact' });
+    this.belongsTo(models.User, {
+      foreignKey: 'contact_id',
+      as: 'user_contact',
+    });
   }
 }
 

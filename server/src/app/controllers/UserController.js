@@ -7,13 +7,13 @@ class UserController {
    * List users
    */
   async index(req, res) {
-    const whereStatement = {
+    let whereStatement = {
       id: { [Sequelize.Op.not]: req.userId },
     };
 
     if (req.query.search) {
-      whereStatement.name = {
-        [Sequelize.Op.like]: `%${req.query.search}%`,
+      whereStatement = {
+        name: { [Sequelize.Op.like]: `%${req.query.search}%` },
       };
     }
 

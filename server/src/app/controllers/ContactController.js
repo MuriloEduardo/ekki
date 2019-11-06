@@ -9,7 +9,12 @@ class ContactController {
   async index(req, res) {
     const contacts = await Contact.findAll({
       where: { user_id: req.userId },
-      include: 'contact',
+      include: [
+        {
+          association: 'user_contact',
+          attributes: ['id', 'name', 'cpf', 'phone'],
+        },
+      ],
     });
 
     return res.json(contacts);
